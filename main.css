@@ -1,0 +1,117 @@
+/* General styles */
+
+html {  height: 100%;  }
+
+body {
+  background-color: #13170d;
+  font-family: sans-serif;
+  margin: 0;
+  color: #fbfaf3;
+  height: 100%;
+  font-size: 9pt;
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 10%;
+  width: 632px;
+}      
+
+div#screenshots {
+  margin-left: auto;
+  margin-right: auto;
+  height: 693px;
+  background-repeat: no-repeat;
+  background-image: url('gazingintothepool.png');
+  background-position: center center;
+}
+
+/* Styles for ancillary text */
+
+div#screenshots .annotation { 
+  padding-top: 15px;
+  width: 20%;
+  position: absolute;
+  top: 50px;
+}
+
+/* I know, I know, but you tell me what kind of semantic names I could possibly use here. */
+
+div#screenshots .left { 
+  text-align: right;
+  left: -21%;
+}
+
+div#screenshots .right { 
+  text-align: left;
+  right: -21%;
+}
+
+div#screenshots .bottom {
+  top: 337px;
+}
+/* Image styles */
+
+img { 
+  float: left;
+  margin: 5px;
+}
+
+img.active { 
+  display: none;
+}
+
+a:hover img.inactive { 
+  display: none;
+}
+
+a:hover img.active { 
+  display: block;
+}
+
+/* Header styles */
+
+h1, h2 { 
+  font-size: 10pt;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 22px;
+}
+
+/* Paragraph styles */
+
+p {
+  margin: 0;
+  line-height: 22px;
+}
+
+p.etc { 
+  text-align: inherit;
+  font-size: 7pt;
+  margin-bottom: 2em;
+}
+
+/* Link styles */
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+/*  padding-left: 3px;
+  padding-right: 3px; */
+  /* color: #ffd90b; */
+  color: #ffc90b;
+  /* color: inherit; */
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+a img {
+  border-width: 0;
+}
+
+/* -30- */
